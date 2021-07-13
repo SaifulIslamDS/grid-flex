@@ -4,55 +4,6 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-}
-
-
-body {
-    background-color: #FDAFB1;
-}
-
-.flex-container {
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.grid-container {
-    display: grid;
-    width: 1170px;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: max-content auto min-content; */
-    gap: 10px;
-}
-
-
-header {
-    background-color: #98D1C7;
-
-}
-
-aside {
-    /* grid-column-start: 1; */
-    /* grid-column-end: 2; */
-    background-color: #62B7B6;
-}
-
-article {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    background-color: #FA7A7B;
-}
-.flex-container.flex-row {
-    flex-direction: row;
-}
-
-footer {
-    background-color: #62dd2a;
-}
-
-.flex-container img {
-    width: 200px;
 }
